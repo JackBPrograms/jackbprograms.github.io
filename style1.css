@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap');
+
+html {
+	--primary: #7D9DFF;
+	--primary-dark: #526aa1;
+	--accent: #2499f9;
+	--color: #272727;
+	--bg: #ffffff;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 500;
+	font-size: 1.5rem;
+	-webkit-font-smoothing: antialiased;
+	background: var(--bg);
+	color: var(--color);
+	transition: color 120ms ease-out 0s;
+	text-align: center;
+}
+
+a {
+	color: var(--primary);
+	text-decoration: none;
+	transition: all 169ms ease-out 0s;
+}
+
+a:hover,
+a:focus {
+	color: var(--primary-dark);
+}
+
+.main_image {
+	margin-top: 5%;
+	width: 160px;
+	height: 160px;
+	border-radius: 90px;
+	margin-bottom: 8px;
+	border: 12px solid var(--primary);
+}
+
+
+img {
+	margin-top: 0.5%;
+	width: 160px;
+	height: 160px;
+	border-radius: 25px;
+	margin-bottom: 8px;
+}
+
+.title-text {
+	font-size: 4rem;
+	font-weight: 550;
+}
+
+.project {
+	margin: 1%;
+	width: 280px;
+	height: 280px;
+	border-radius: 15px;
+	margin-bottom: 8px;
+}
